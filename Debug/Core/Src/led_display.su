@@ -1,0 +1,9 @@
+led_display.c:14:6:updateClockBuffer	16	static
+led_display.c:24:6:display7SEG	16	static
+led_display.c:128:6:update7SEG	16	static
+led_display.c:164:6:setTrafficLightRoad1	24	static
+led_display.c:170:6:setTrafficLightRoad2	24	static
+led_display.c:176:6:turnOffAllTrafficLEDs	8	static
+led_display.c:180:6:blinkRed	8	static
+led_display.c:184:6:blinkYellow	8	static
+led_display.c:188:6:blinkGreen	8	static
