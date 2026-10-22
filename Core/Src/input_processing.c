@@ -166,7 +166,7 @@ void fsm_for_input_processing(void){
 	            run_normal_traffic_light();
 
 	            if(is_button_just_pressed(0)){//button 1 is pressed (b1 idx 0)
-	            	//backup
+	            	//create the new valid backup
 	            	prev_valid_red = time_red;
 	            	prev_valid_yellow = time_yellow;
 	            	prev_valid_green = time_green;
