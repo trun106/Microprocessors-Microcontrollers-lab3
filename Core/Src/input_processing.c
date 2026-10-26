@@ -175,7 +175,7 @@ void fsm_for_input_processing(void){
 	                mode = MODE_2;
 	                temp_value = time_red;
 	                turnOffAllTrafficLEDs();
-	                setTimerBlink(250);//2hz is 250ms period
+	                setTimerBlink(250);//2hz is 500ms period
 	                updateClockBuffer(temp_value, mode);
 	            }
 	            break;
